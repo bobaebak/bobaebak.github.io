@@ -20,8 +20,8 @@ In this case, the version of a package installed by A project could conflict wit
 
 Step 1. Install virtualenv and virtualenvwrapper
 ```shell
-pip install Virtualenv Virtualenvwrapper
-mkdir .virtualenvs # make the location of virtual environment
+$ pip install Virtualenv Virtualenvwrapper
+$ mkdir .virtualenvs # make the location of virtual environment
 ```
 
 Step 2. open the ~/.bashrc. and append these lines to the end  
@@ -39,13 +39,13 @@ source $HOME/.local/bin/virtualenvwrapper.sh
 
 Step 3. Create an environment with `mkvirtualenv`
 ```shell
-mkvirtualenv venv # -p python3
+$ mkvirtualenv venv # -p python3
 ```
 
 
 Step 4. Activate an environment with `workon`
 ```shell
-workon {virtual environment name}
+$ workon {virtual environment name}
 ```
 
 Step 5. Deactivate an environment with `deactivate`
