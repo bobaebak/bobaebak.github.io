@@ -1,12 +1,9 @@
 ---
 layout: post
-title: Python Virtual Environment Set Up on Ubuntu
-categories: study
+title: How to install Python Virtual Environment on Ubuntu
+categories: Blog
 tags: [python, virtual environment]
 ---
-
-<h1> How to install Python Virtual Environment on Ubuntu </h1>
-
 <h2> What is the Python Virtual Environment? </h2>
 
 In Python, a virtual environment allows us to use separate python execution environment for each project on a single PC.
