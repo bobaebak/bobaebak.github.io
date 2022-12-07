@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Python Virtual Environment Set Up on Ubuntu
-#categories:
-#- History
-#- External sources
+categories: study
+tags: [python, virtual environment]
 ---
 
 <h1> How to install Python Virtual Environment on Ubuntu </h1>
@@ -42,17 +41,17 @@ Step 3. Create an environment with `mkvirtualenv`
 $ mkvirtualenv venv # -p python3
 ```
 
-
 Step 4. Activate an environment with `workon`
 ```shell
-$ workon {virtual environment name}
+$ workon {env_name}
 ```
 
 Step 5. Deactivate an environment with `deactivate`
+```shell
+$ (env_name) deactivate
+```
 
 Step 6. Remove an environment with `rmvirtualenv`
-
-
-
-
-
+```shell
+$ rmvirtualenv {env_name}
+```
