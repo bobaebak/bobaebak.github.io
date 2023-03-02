@@ -96,7 +96,8 @@ lang: en-GB # Set the site language
 title: "Bobae's Blog" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "My journey started" # Site description and default description, also used in jekyll-seo-tag
-url: "https://alembic.darn.es" # Site url, also used in jekyll-seo-tag
+# url: "https://alembic.darn.es" # Site url, also used in jekyll-seo-tag
+url: "http://localhost:4000"
 baseurl: ""
 repo: "https://github.com/daviddarnes/alembic"
 email: "zkd012@gmail.com"
@@ -123,12 +124,10 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 navigation_header:
 - title: Home
   url: /
+- title: About Me
+  url: /aboutme/
 - title: Blog
   url: /blog/
-#- title: Elements
-#  url: /elements/
-#- title: Categories
-#  url: /categories/
 - title: Search
   url: /search/
 #- title: Fork Alembic
