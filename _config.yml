@@ -89,6 +89,13 @@ defaults:
       type: "pages"
     values:
       layout: page # Set the default layout for pages
+  -
+    scope:
+      path: ""
+      type: "blogs"
+    values:
+      layout: blog
+
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
@@ -126,10 +133,10 @@ navigation_header:
   url: /
 - title: About Me
   url: /aboutme/
-- title: Blog
-  url: /blog/
-- title: Search
-  url: /search/
+# - title: Blog
+#   url: /blog/
+# - title: Search
+#   url: /search/
 #- title: Fork Alembic
 #  url: https://github.com/daviddarnes/alembic
 
@@ -143,6 +150,7 @@ social_links: # Appears in sidebar. Set the urls then uncomment and comment out 
   GitHub: https://github.com/daviddarnes
   link: https://darn.es
   RSS: /feed.xml
+
 
 sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
   Twitter: "#0d94e7"

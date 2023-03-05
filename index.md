@@ -1,28 +1,25 @@
 ---
-title: Bobae's study blog 
+title: 
 feature_text: |
-  ## Study collection
-  This blog aims to organize personal study tasks.
+  ## Hi, I am Bobae !
+  Welcome to my blog.
 feature_image: "https://picsum.photos/1300/400?image=989"
 # excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
 
-Hi, I'm a computer science student. Currently, I'm studying artificial intelligence, this blog will help to advance some knowledge of AR for me.  
 
 <!-- {% include button.html text="Fork it" icon="github" link="https://github.com/daviddarnes/alembic" color="#0366d6" %} {% include button.html text="Buy me a coffee ☕️" link="https://buymeacoffee.com/daviddarnes#support" color="#f68140" %} {% include button.html text="Tweet it" icon="twitter" link="https://twitter.com/intent/tweet/?url=https://alembic.darn.es&text=Alembic%20-%20A%20Jekyll%20boilerplate%20theme&via=DavidDarnes" color="#0d94e7" %} {% include button.html text="Install Alembic ⚗️" link="https://github.com/daviddarnes/alembic#installation" %} -->
 
-<!-- ## Features
+## PROJECT
+- How Platforms See Influencers (Dec 2022 - Feb 2023) [Demo](https://bobaebak.github.io/howplatformsseeinfluencers) 
 
-- Available as a **theme gem** and **GitHub Pages** theme
-- Clear and elegant design that can be used out of the box or as solid starting point
-- Tested in all major browsers, including **IE and Edge**
-- Built in **Service Worker** so it can work offline and on slow connections
-- **Configurable colours** and typography in a single settings file
-- Extensive set of **shortcodes** to include various elements; such as buttons, icons, figure images and more
-- Solid **typographic framework** from [Sassline](https://sassline.com/)
-- Configurable navigation via a single file
-- Modular Jekyll components
-- Post category support in the form of a single post index page grouped by category
+## STUDY
+- Data Mining [Google Colab](https://colab.research.google.com/drive/17RFE4FsQK6nfOAI8w-2tjbs2qipfL9jx) 
+- Stable Diffusion [Google Colab](https://colab.research.google.com/drive/1s9unOVyRqEKbRCIL-hl3FaNSPL2BiMFd)
+
+
+
+<!--
 - Built in live search using JavaScript
 - **Contact form** built in using [Formspree](https://formspree.io/)
 - Designed with **[Siteleaf](https://www.siteleaf.com/)** in mind
