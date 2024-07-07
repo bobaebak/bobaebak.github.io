@@ -1,0 +1,16 @@
+current directory: /Users/bobaebak/git/bobaebak.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/Users/bobaebak/.rubies/ruby-3.1.3/bin/ruby -I /Users/bobaebak/.rubies/ruby-3.1.3/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/bobaebak/git/bobaebak.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20240702-84777-5l0p1c sitelibdir\=./.gem.20240702-84777-5l0p1c clean
+
+current directory: /Users/bobaebak/git/bobaebak.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20240702-84777-5l0p1c sitelibdir\=./.gem.20240702-84777-5l0p1c
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+
+current directory: /Users/bobaebak/git/bobaebak.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20240702-84777-5l0p1c sitelibdir\=./.gem.20240702-84777-5l0p1c install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20240702-84777-5l0p1c

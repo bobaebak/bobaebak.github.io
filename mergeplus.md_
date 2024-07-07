@@ -1,0 +1,42 @@
+---
+title: MergePlus
+author: Bobae Bak
+date: 2024-07-07
+layout: post
+---
+
+<!-- See [Web Page](https://www.mergeplus.co.kr/) -->
+
+### CAREER PROFILE
+- Collaborated closely with Product Owners, Delivery Owners and UI/UX Designers to determine platform requirements and priorities.
+- Improved the design and development capabilities by leading development teams.
+- Built infrastructure to handle data for millions of users in systems.
+- Performed client data structure refactoring, reducing loading time by 30%
+- Monitored systems to support troubleshooting and maintenance services through AWS.
+
+### PROJECT
+##### eGift Voucher Service Development (June 2021)
+- Developed and implemented APIs to establish linkage with external organizations for mobile coupon issuance/cancellation/search/extension.
+- Designed and developed a gift payment system module using PG company and our own product.
+- Developed a push notification and MMS transmission system using FCM that responds to user actions in real-time.
+- Created customized in-app gifting content tailored to user needs through user analysis and feedback.
+- Conducted GA data modeling and data analysis to enhance customer understanding and improve user experience.
+- Designed and developed user activity and payment history tracking systems to analyze usage and optimize services.
+- Analyzed and provided payment data modeling to enhance settlement processing and reduce errors.
+
+##### e-Rewards (points) Service Advancement (June 2021)
+- RDB Schema design and definition, batch service, event module development
+- Add transaction to solve concurrency/coherence issues when using and accumulating
+
+##### Subscription System Advancement (May 2021)
+- RDB Schema design and definition of regular subscription products, batch service, and event module development
+- Development of external goods user transmission automation such as Payco/Toss/Hana Point
+- Content development to check user's consumption history and benefits
+- Improved barcode screen for real-time payment
+- Development and advancement of regular subscription product code entry/user usage history/payment history
+- Application of transaction separation and removal of legacy sources in the existing payment system
+
+##### Subscription System Development (May 2020)
+- New subscription service RDB Schema design and definition, batch service, event module development
+- Development of in-app content webview
+- Speed improvement/improvement by introducing in-app content image area CDN

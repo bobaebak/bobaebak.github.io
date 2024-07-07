@@ -1,25 +1,67 @@
----
-layout: default
----
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
 
-{% include site-header.html %}
+        {%- include head.html -%}
 
-<main class="main  container">
+        {% if page.previous %}
+            <link rel="prev" href="{{site.baseurl}}{{page.previous.url}}" />
+        {% else %}
+            <link rel="prev" href="{{site.baseurl}}/" />
+        {% endif %}
 
-  <article class="article  article--post  content  typeset">
+        {% if page.next %}
+            <link rel="next" href="{{site.baseurl}}{{page.next.url}}" />
+        {% endif %}
+    </head>
+    <body>
+        <div class="book">
 
-    <h1>{{ page.title }}</h1>
-    {% include post-meta.html %}
-    {{ content }}
+            {%- include toc-date.html -%}
 
-    {% include nav-share.html %}
+            <div class="book-body">
+                <div class="book-header" role="navigation">
+                    <!-- Title -->
+                    <h1>
+                        <i class="fa fa-circle-o-notch fa-spin"></i>
+                        {% if page.title %}
+                            <a href="." >{{ page.title | escape }}</a>
+                        {% else %}
+                            <a href="." >{{ site.title | escape }}</a>
+                        {% endif %}
+                    </h1>
+                </div>
 
-    {% include post-comments.html %}
+                <div class="body-inner">
+                    {%- include body.html -%}
 
-  </article>
+                    {% if page.previous %}
+                        <a href="{{site.baseurl}}{{page.previous.url}}" class="navigation navigation-prev navigation-unique" aria-label="Previous page: {{page.previous.title}}">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                    {% else %}
+                        <a href="{{site.baseurl}}/" class="navigation navigation-prev navigation-unique" aria-label="Previous page: {{site.title}}">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                    {% endif %}
 
-  {% if page.aside == true %}{% include site-aside.html %}{% endif %}
+                    {% if page.next %}
+                        <a href="{{site.baseurl}}{{page.next.url}}" class="navigation navigation-next navigation-unique" aria-label="Next page: {{page.next.title}}">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    {% endif %}
+                </div>
+            </div>
 
-</main>
+            <script>
+            var gitbook = gitbook || [];
+            gitbook.push(function() {
+                gitbook.page.hasChanged({%- include metadata-post.json.tpl -%});
+            });
+            </script>
+        </div>
 
-{% include site-footer.html %}
+        {%- include footer.html -%}
+
+    </body>
+</html>
